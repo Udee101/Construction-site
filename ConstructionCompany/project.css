@@ -4,7 +4,6 @@
 	--color3: #3e4491;
 	--color4: #1a1b4b;
 	--footer-color1: #797979;
-	
 }
 body{
 	font-family: 'Nunito', sans-serif;
@@ -60,7 +59,7 @@ img{
 	color: var(--text-color2)!important;
 }
 .intro{
-	padding: 90px;
+	padding: 90px 10px;
 	color: #fff;
 }
 .intro h1{
@@ -81,9 +80,9 @@ img{
 }
 .cont{
 	width: 300px;
-	height: 250px;
+	height: 300px;
 	margin: 40px auto;
-	padding: 5px 10px;
+	padding: 10px 5px;
 	border-color: var(--color1);
 	border-left-style: solid; 
 	border-right-style: solid; 
@@ -171,7 +170,7 @@ img{
 	background-attachment: fixed;
 }
 .bg-text, .bg-text1{
-	padding: 100px;
+	padding: 90px 10px;
 }
 .bg-text h1{
 	font-size: 60px;
@@ -234,40 +233,6 @@ img{
 	background-position: center;
 	background-attachment: fixed;
 }
-
-/* CONCLUSION */
-#conclusion{
-	padding: 50px;
-	background: var(--color4);
-	color: #fff;
-}
-.conc{
-	margin: 40px auto;
-}
-.conc img{
-	width: 200px;
-}
-.fa-map-marker-alt, .fa-phone-alt{
-	font-size: 18px;
-	margin-right: 5px;
-}
-.conc ul li{
-	list-style-type: none;
-	font-size: 16px;
-}
-.conc h3{
-	font-weight: bold;
-}
-.fab{
-	font-size: 18px;
-	color: #fff;
-	margin-right: 10px;
-}
-.fab:hover{
-	color: var(--color1);
-}
-
-/* SERVICES */
 #serv-ice{
 	padding: 50px;
 }
@@ -326,6 +291,35 @@ img{
 .des-des p{
 	margin-top: 20px;
 }
+/* CONCLUSION */
+#conclusion{
+	padding: 50px;
+	background: var(--color4);
+	color: #fff;
+}
+.conc{
+	margin: 40px auto;
+}
+.fa-map-marker-alt, .fa-phone-alt{
+	font-size: 18px;
+	margin-right: 5px;
+}
+.conc ul li{
+	list-style-type: none;
+	font-size: 16px;
+}
+.conc h3{
+	font-weight: bold;
+}
+.fab{
+	font-size: 18px;
+	color: #fff;
+	margin-right: 10px;
+}
+.fab:hover{
+	color: var(--color1);
+}
+
 
 /* LOGIN AND SIGN UP */
 .form{
